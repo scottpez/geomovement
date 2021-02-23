@@ -1,17 +1,34 @@
 {
-  "name": "mapbox-covid19-init",
+  "name": "geomovement",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "./",
   "dependencies": {
-    "country-code-lookup": "0.0.17",
-    "mapbox-gl": "1.9.0",
-    "node-sass": "4.13.1",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "react-scripts": "3.0.1",
-    "swr": "0.1.18"
+    "@deck.gl/mapbox": "8.3.11",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/lab": "latest",
+    "@material-ui/data-grid": "4.0.0-alpha.8",
+    "@turf/turf": "latest",
+    "axios": "0.20.0",
+    "d3": "^6.2.0",
+    "d3-scale": "^3.2.3",
+    "geostats": "2.0.0",
+    "deck.gl": "8.3.8",
+    "jquery": "latest",
+    "lodash": "4.17.20",
+    "mapbox-gl": "1.13.0",
+    "node-sass": "latest",
+    "react": "latest",
+    "react-autosuggest": "latest",
+    "react-dom": "latest",
+    "react-scripts": "3.4.3",
+    "react-virtualized": "9.22.2",
+    "swr": "0.3.2",
+    "throttle-debounce": "2.3.0",
+    "classnames": "2.2.6"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -27,5 +44,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
 }
