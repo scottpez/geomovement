@@ -1,0 +1,40 @@
+#chart {
+  height: 200px;
+  width: 100%;
+}
+
+.bar--tmovement {
+  fill: #c7e9c0;
+}
+
+.bar--tnomovement {
+  fill: #dadaeb;
+}
+
+.bar--fmovement {
+  fill: #006d2c;
+}
+
+.bar--fnomovement {
+  fill: #54278f;
+}
+
+.clearbox {
+  fill: #ffffff;
+  fill-opacity: 0.75;
+}
+.nobox {
+  fill: #ffffff;
+  fill-opacity: 0;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #969696;
+  shape-rendering: crispEdges;
+}

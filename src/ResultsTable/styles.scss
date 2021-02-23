@@ -1,0 +1,42 @@
+// .MuiDataGrid-cell {
+//     height: 40px !important;
+//     padding-left: 2px !important;
+//     padding-right: 2px !important;
+//     padding-top: 5px !important;
+//     padding-bottom: 5px !important;
+//     font-size: 8.75px !important;
+//     border-bottom: 1px solid rgba(0, 126, 255, 0.24) !important;
+// }
+// #simple-tabpanel-1 > .MuiBox-root > .MuiTypography-root {
+//     height: 100% !important;
+// }
+// #simple-tabpanel-1 > .MuiBox-root {
+//     height: 100% !important;
+// }
+// #r_dg_div > div > div> .MuiDataGrid-mainGridContainer {
+//     height: 100% !important;
+//     display: inline !important;
+//     flex-grow: 0 !important;
+//     flex-direction: unset !important;
+// }
+#r_dg_div > div > div > .MuiDataGrid-footer {
+    height: 30px !important;
+    min-height: 30px !important;
+}
+// #r_dg_div > div > div > div > .MuiDataGrid-window {
+//     height: 100% !important;
+// }
+// #r_dg_div > div > .MuiDataGrid-root {
+//     height: 100% !important;
+// }
+#r_dg_div > div > div > div > .MuiDataGrid-window > div > div > div > div > .MuiDataGrid-cell {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 13px !important;
+    align-items: flex-start !important;
+    overflow-y: hidden;
+}
