@@ -1049,7 +1049,7 @@ class MainApp extends React.Component {
   componentDidMount() {
 
     mapboxgl.accessToken =
-      'yourMapboxKey';
+      '***REMOVED***';
 
     // this.mapbox functionality goes here
     this.map = new mapboxgl.Map({
